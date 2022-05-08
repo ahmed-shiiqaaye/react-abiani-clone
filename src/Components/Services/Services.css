@@ -1,0 +1,27 @@
+.services_section{
+    padding: 50px 0;
+}
+.grid_services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 30px;
+}
+.grid_services .card{
+    text-align: center;
+    padding: 40px 30px;
+}
+.grid_services .card:hover{
+    background:rgba(0,0,0,.03);
+}
+.grid_services .card h2{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.grid_services .card p{
+    opacity: .8;
+}
+.grid_services .card .btn{
+    margin-top: 20px;
+    background: transparent;
+    color: black;
+}
