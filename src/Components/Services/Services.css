@@ -1,5 +1,6 @@
 .services_section{
     padding: 50px 0;
+    background: black;
 }
 .grid_services{
     display: grid;
@@ -11,17 +12,19 @@
     padding: 40px 30px;
 }
 .grid_services .card:hover{
-    background:rgba(0,0,0,.03);
+    background:rgba(2550,250,250,.03);
 }
 .grid_services .card h2{
     margin-bottom: 10px;
     text-transform: capitalize;
+    color: var(--pr);
 }
 .grid_services .card p{
     opacity: .8;
+    color: white;
 }
 .grid_services .card .btn{
-    margin-top: 20px;
-    background: transparent;
-    color: black;
+    margin-top: 21px;
+    background: var(--btn);
+    color: white;
 }

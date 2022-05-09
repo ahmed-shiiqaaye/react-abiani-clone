@@ -1,5 +1,6 @@
 .cards_section{
     padding: 50px 0;
+    background: #241c1c;
 }
 .cards_section .FlexCards .flexCard{
     display: flex;
@@ -18,9 +19,12 @@
     text-transform: capitalize;
     font-size: 26px;
     margin-bottom: 10px;
+    color: var(--btn);
 }
 .cards_section .FlexCards .flexCard .text p{
     line-height: 1.8;
+    color: white;
+    opacity: 0.8;
 }
 
 
